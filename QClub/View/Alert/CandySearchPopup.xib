@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NanumSquareOTFR.otf">
+            <string>NanumSquareOTFR</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="oRJ-s1-sXf" customClass="CandySearchPopup" customModule="QClub" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="410"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yuu-FC-kxr">
+                    <rect key="frame" x="0.0" y="50" width="360" height="0.5"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="LhW-Pg-Amy"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hOL-QK-Sza">
+                    <rect key="frame" x="0.0" y="0.0" width="360" height="50"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="store_heart_icon" translatesAutoresizingMaskIntoConstraints="NO" id="WJP-Yz-anA">
+                            <rect key="frame" x="10" y="15" width="25" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="25" id="5lO-gx-BhB"/>
+                                <constraint firstAttribute="height" constant="20" id="eaz-ED-yFS"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="현재 하트 :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHf-sz-NwA">
+                            <rect key="frame" x="45" y="15" width="72.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kK9-BP-aIT">
+                            <rect key="frame" x="122.5" y="15" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="WJP-Yz-anA" firstAttribute="centerY" secondItem="hOL-QK-Sza" secondAttribute="centerY" id="NqB-eb-EkN"/>
+                        <constraint firstItem="tHf-sz-NwA" firstAttribute="centerY" secondItem="hOL-QK-Sza" secondAttribute="centerY" id="Xxy-Dg-9At"/>
+                        <constraint firstItem="kK9-BP-aIT" firstAttribute="leading" secondItem="tHf-sz-NwA" secondAttribute="trailing" constant="5" id="Zff-4j-QZU"/>
+                        <constraint firstItem="tHf-sz-NwA" firstAttribute="leading" secondItem="WJP-Yz-anA" secondAttribute="trailing" constant="10" id="ien-7R-mnA"/>
+                        <constraint firstItem="WJP-Yz-anA" firstAttribute="leading" secondItem="hOL-QK-Sza" secondAttribute="leading" constant="10" id="npd-ZU-msR"/>
+                        <constraint firstItem="kK9-BP-aIT" firstAttribute="centerY" secondItem="hOL-QK-Sza" secondAttribute="centerY" id="nrq-fC-YGv"/>
+                        <constraint firstAttribute="height" constant="50" id="uTt-hP-RaK"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="캔디 스페셜인연 신청" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6w-X5-Iey">
+                    <rect key="frame" x="109" y="80.5" width="142" height="20"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="17"/>
+                    <color key="textColor" red="0.93333333330000001" green="0.20784313730000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gT-fu-QIG">
+                    <rect key="frame" x="10" y="116" width="340" height="218"/>
+                    <attributedString key="attributedText">
+                        <fragment>
+                            <string key="content">캔디였던 회원에게 스페셜인연을 신청해서 
+인연을 이어가실 수 있습니다. 
+캔디였던 분이 회원님께 큰 호감을 갖고 있을 수 있습니다.
+‘스페셜 인연’을 신청하시면 
+상대 회원에게 ‘스페셜 인연’ 신청이 알림으로 전해지고, 
+다음날 낮 12시에 상대 회원은
+신청한 회원을 확인할 수 있습니다.
+스페셜 인연을 확인할 때까지
+누가 보냈는지 확인을 할 수 없답니다.
+설레임을 주세요~ 스페셜하게 다가가세요~
+‘스페셜 인연’ 입니다
+
+</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name=".AppleSDGothicNeoI-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ier-Sv-1LQ">
+                    <rect key="frame" x="20" y="350" width="320" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="nDD-Js-LWj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="16"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                    <state key="normal" title="나의 캔디 확인하기">
+                        <color key="titleColor" red="0.93333333330000001" green="0.20784313730000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.93333333330000001" green="0.20784313730000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="okTUI:" destination="oRJ-s1-sXf" eventType="touchUpInside" id="sj6-gC-JGe"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="store_heart_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ara-rl-u5X">
+                    <rect key="frame" x="255" y="360" width="25" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="pIC-Ph-g2L"/>
+                        <constraint firstAttribute="width" constant="25" id="sB0-jF-NIk"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnS-it-fzT">
+                    <rect key="frame" x="299" y="359.5" width="21" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.93333333330000001" green="0.20784313730000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cV7-Tp-JYX">
+                    <rect key="frame" x="285" y="360.5" width="9" height="20"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="17"/>
+                    <color key="textColor" red="0.93333333330000001" green="0.20784313730000001" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="nPS-NJ-cKb" firstAttribute="trailing" secondItem="hOL-QK-Sza" secondAttribute="trailing" id="6RG-tn-7ZV"/>
+                <constraint firstItem="yuu-FC-kxr" firstAttribute="top" secondItem="nPS-NJ-cKb" secondAttribute="top" constant="50" id="6bM-XI-gnZ"/>
+                <constraint firstItem="cV7-Tp-JYX" firstAttribute="leading" secondItem="ara-rl-u5X" secondAttribute="trailing" constant="5" id="FgE-76-5nB"/>
+                <constraint firstItem="nPS-NJ-cKb" firstAttribute="trailing" secondItem="4gT-fu-QIG" secondAttribute="trailing" constant="10" id="H6U-u0-tVd"/>
+                <constraint firstItem="jnS-it-fzT" firstAttribute="leading" secondItem="cV7-Tp-JYX" secondAttribute="trailing" constant="5" id="Kk2-GW-Zdh"/>
+                <constraint firstItem="nPS-NJ-cKb" firstAttribute="bottom" secondItem="Ier-Sv-1LQ" secondAttribute="bottom" constant="20" id="PRu-5R-MEh"/>
+                <constraint firstItem="4gT-fu-QIG" firstAttribute="top" secondItem="s6w-X5-Iey" secondAttribute="bottom" constant="15" id="S9O-Aw-dVd"/>
+                <constraint firstItem="yuu-FC-kxr" firstAttribute="leading" secondItem="nPS-NJ-cKb" secondAttribute="leading" id="VdE-iV-kIy"/>
+                <constraint firstItem="jnS-it-fzT" firstAttribute="trailing" secondItem="Ier-Sv-1LQ" secondAttribute="trailing" constant="-20" id="Wd9-cB-A6v"/>
+                <constraint firstItem="hOL-QK-Sza" firstAttribute="leading" secondItem="nPS-NJ-cKb" secondAttribute="leading" id="bts-4Q-XPB"/>
+                <constraint firstItem="Ier-Sv-1LQ" firstAttribute="leading" secondItem="nPS-NJ-cKb" secondAttribute="leading" constant="20" id="cIL-g5-2yL"/>
+                <constraint firstItem="s6w-X5-Iey" firstAttribute="centerX" secondItem="oRJ-s1-sXf" secondAttribute="centerX" id="dsk-uD-9ZI"/>
+                <constraint firstItem="nPS-NJ-cKb" firstAttribute="trailing" secondItem="Ier-Sv-1LQ" secondAttribute="trailing" constant="20" id="epv-NE-lIs"/>
+                <constraint firstItem="ara-rl-u5X" firstAttribute="centerY" secondItem="Ier-Sv-1LQ" secondAttribute="centerY" id="f9m-ry-FIq"/>
+                <constraint firstItem="jnS-it-fzT" firstAttribute="centerY" secondItem="Ier-Sv-1LQ" secondAttribute="centerY" id="ft2-jJ-o7n"/>
+                <constraint firstItem="4gT-fu-QIG" firstAttribute="leading" secondItem="nPS-NJ-cKb" secondAttribute="leading" constant="10" id="hUG-Ht-cP8"/>
+                <constraint firstItem="hOL-QK-Sza" firstAttribute="top" secondItem="nPS-NJ-cKb" secondAttribute="top" id="mnA-FP-Ggj"/>
+                <constraint firstItem="cV7-Tp-JYX" firstAttribute="centerY" secondItem="Ier-Sv-1LQ" secondAttribute="centerY" id="nao-Q4-e2u"/>
+                <constraint firstItem="4gT-fu-QIG" firstAttribute="centerX" secondItem="oRJ-s1-sXf" secondAttribute="centerX" id="puy-pz-xbY"/>
+                <constraint firstItem="nPS-NJ-cKb" firstAttribute="trailing" secondItem="yuu-FC-kxr" secondAttribute="trailing" id="tca-1a-PmF"/>
+                <constraint firstItem="s6w-X5-Iey" firstAttribute="top" secondItem="yuu-FC-kxr" secondAttribute="bottom" constant="30" id="uhX-0s-MLY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="nPS-NJ-cKb"/>
+            <connections>
+                <outlet property="lbContent" destination="4gT-fu-QIG" id="nfm-DT-chI"/>
+                <outlet property="lbHeart" destination="kK9-BP-aIT" id="fO9-v9-Xfc"/>
+            </connections>
+            <point key="canvasLocation" x="-1694" y="140"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="store_heart_icon" width="40" height="32"/>
+    </resources>
+</document>

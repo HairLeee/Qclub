@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NanumSquareOTFR.otf">
+            <string>NanumSquareOTFR</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ok4-UD-YyI" customClass="BoardNWriteChooseImagePopup" customModule="QClub" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="447" height="260"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Bh-FT-rtB">
+                    <rect key="frame" x="0.0" y="0.0" width="447" height="260"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U1j-h0-bYe">
+                            <rect key="frame" x="0.0" y="0.0" width="447" height="50"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nz1-ke-AOt">
+                                    <rect key="frame" x="0.0" y="0.0" width="447" height="50"/>
+                                    <state key="normal" title="앨범으로 이동">
+                                        <color key="titleColor" red="0.12549019610000001" green="0.12549019610000001" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="selectFromAlbumTUI:" destination="ok4-UD-YyI" eventType="touchUpInside" id="zfc-sz-spF"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="0.66666666669999997" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="nz1-ke-AOt" secondAttribute="trailing" id="30P-bA-hh7"/>
+                                <constraint firstAttribute="bottom" secondItem="nz1-ke-AOt" secondAttribute="bottom" id="9Zy-2V-4YH"/>
+                                <constraint firstItem="nz1-ke-AOt" firstAttribute="leading" secondItem="U1j-h0-bYe" secondAttribute="leading" id="F1J-ew-czc"/>
+                                <constraint firstAttribute="height" constant="50" id="dGE-mz-5a7"/>
+                                <constraint firstItem="nz1-ke-AOt" firstAttribute="top" secondItem="U1j-h0-bYe" secondAttribute="top" id="r00-By-nTT"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2l-zZ-QGX">
+                            <rect key="frame" x="0.0" y="50" width="447" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="F6Z-m9-tpa"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="17"/>
+                            <state key="normal" title="직접 찍기">
+                                <color key="titleColor" red="0.3803921569" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="takeAPhotoTUI:" destination="ok4-UD-YyI" eventType="touchUpInside" id="47G-0W-yiN"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xfT-vD-EaD">
+                            <rect key="frame" x="0.0" y="100" width="447" height="1"/>
+                            <color key="backgroundColor" red="0.74117647060000003" green="0.74117647060000003" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="wlR-QW-151"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="U1j-h0-bYe" firstAttribute="top" secondItem="8Bh-FT-rtB" secondAttribute="top" id="24g-rj-9hk"/>
+                        <constraint firstAttribute="trailing" secondItem="U1j-h0-bYe" secondAttribute="trailing" id="4Q2-Mr-Apt"/>
+                        <constraint firstItem="xfT-vD-EaD" firstAttribute="top" secondItem="e2l-zZ-QGX" secondAttribute="bottom" id="5fU-0r-728"/>
+                        <constraint firstItem="e2l-zZ-QGX" firstAttribute="leading" secondItem="8Bh-FT-rtB" secondAttribute="leading" id="7ga-2Y-lsB"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="xfT-vD-EaD" secondAttribute="bottom" id="8og-A6-8dP"/>
+                        <constraint firstItem="xfT-vD-EaD" firstAttribute="top" secondItem="e2l-zZ-QGX" secondAttribute="bottom" id="Awx-Fg-cfo"/>
+                        <constraint firstItem="xfT-vD-EaD" firstAttribute="leading" secondItem="8Bh-FT-rtB" secondAttribute="leading" id="Bwz-7n-JSO"/>
+                        <constraint firstAttribute="trailing" secondItem="e2l-zZ-QGX" secondAttribute="trailing" id="DMt-He-gBp"/>
+                        <constraint firstItem="e2l-zZ-QGX" firstAttribute="top" secondItem="U1j-h0-bYe" secondAttribute="bottom" id="Mfy-WF-5gL"/>
+                        <constraint firstAttribute="trailing" secondItem="xfT-vD-EaD" secondAttribute="trailing" id="W53-5s-pr8"/>
+                        <constraint firstItem="U1j-h0-bYe" firstAttribute="leading" secondItem="8Bh-FT-rtB" secondAttribute="leading" id="fxH-T7-NYa"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="7o2-UJ-ZuL" firstAttribute="bottom" secondItem="8Bh-FT-rtB" secondAttribute="bottom" id="7xM-Bf-Hxv"/>
+                <constraint firstItem="8Bh-FT-rtB" firstAttribute="leading" secondItem="7o2-UJ-ZuL" secondAttribute="leading" id="Uqi-3z-ccz"/>
+                <constraint firstItem="7o2-UJ-ZuL" firstAttribute="trailing" secondItem="8Bh-FT-rtB" secondAttribute="trailing" id="bgf-1a-7PX"/>
+                <constraint firstItem="8Bh-FT-rtB" firstAttribute="top" secondItem="7o2-UJ-ZuL" secondAttribute="top" id="eSH-g7-oXz"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="7o2-UJ-ZuL"/>
+            <point key="canvasLocation" x="15" y="-53"/>
+        </view>
+    </objects>
+</document>

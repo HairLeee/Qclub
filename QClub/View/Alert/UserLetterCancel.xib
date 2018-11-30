@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="031-7q-yuZ" customClass="UserLetterCancel" customModule="QClub" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="373" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="POt-ky-33e">
+                    <rect key="frame" x="0.0" y="0.0" width="373" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ReI-2l-tt0">
+                            <rect key="frame" x="130.5" y="15" width="112" height="21"/>
+                            <string key="text">스페셜 인연 거절</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.41568627450000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="ReI-2l-tt0" firstAttribute="centerX" secondItem="POt-ky-33e" secondAttribute="centerX" id="Pd9-e2-hhN"/>
+                        <constraint firstAttribute="height" constant="50" id="SkJ-dZ-CNa"/>
+                        <constraint firstItem="ReI-2l-tt0" firstAttribute="centerY" secondItem="POt-ky-33e" secondAttribute="centerY" id="h6w-yx-i6b"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2P-tg-5Cm">
+                    <rect key="frame" x="20" y="70" width="49" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMv-np-aJQ">
+                    <rect key="frame" x="74" y="70" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKh-s9-3hO">
+                    <rect key="frame" x="20" y="101" width="333" height="61"/>
+                    <string key="text">절 좋게 봐주셔서 감사합니다.하지만, 제 인연은 아닌 것 같아요.죄송합니다. 좋은 인연 만나시길 소원합니다.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmr-Po-WSG">
+                    <rect key="frame" x="20" y="190" width="333" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="wiQ-7n-voP"/>
+                    </constraints>
+                    <state key="normal" title="닫기">
+                        <color key="titleColor" red="0.90980392160000001" green="0.41568627450000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.90980392160000001" green="0.41568627450000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="okActionTUI:" destination="031-7q-yuZ" eventType="touchUpInside" id="4g3-w5-tff"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="POt-ky-33e" firstAttribute="leading" secondItem="Gnu-2r-lOF" secondAttribute="leading" id="3y3-sr-tm5"/>
+                <constraint firstItem="Gnu-2r-lOF" firstAttribute="trailing" secondItem="wmr-Po-WSG" secondAttribute="trailing" constant="20" id="5NV-pG-DOx"/>
+                <constraint firstItem="sKh-s9-3hO" firstAttribute="leading" secondItem="Gnu-2r-lOF" secondAttribute="leading" constant="20" id="77b-so-7OX"/>
+                <constraint firstItem="POt-ky-33e" firstAttribute="top" secondItem="031-7q-yuZ" secondAttribute="top" id="ApO-Ny-CSJ"/>
+                <constraint firstItem="c2P-tg-5Cm" firstAttribute="leading" secondItem="Gnu-2r-lOF" secondAttribute="leading" constant="20" id="DAG-Yv-yMH"/>
+                <constraint firstItem="Gnu-2r-lOF" firstAttribute="trailing" secondItem="sKh-s9-3hO" secondAttribute="trailing" constant="20" id="DCK-id-7YC"/>
+                <constraint firstItem="wmr-Po-WSG" firstAttribute="leading" secondItem="Gnu-2r-lOF" secondAttribute="leading" constant="20" id="OL2-73-yGg"/>
+                <constraint firstItem="sKh-s9-3hO" firstAttribute="top" secondItem="c2P-tg-5Cm" secondAttribute="bottom" constant="10" id="blX-hy-A74"/>
+                <constraint firstItem="Gnu-2r-lOF" firstAttribute="bottom" secondItem="wmr-Po-WSG" secondAttribute="bottom" constant="20" id="bp3-Vq-bpA"/>
+                <constraint firstAttribute="trailing" secondItem="POt-ky-33e" secondAttribute="trailing" id="lM2-Lk-t6L"/>
+                <constraint firstItem="LMv-np-aJQ" firstAttribute="centerY" secondItem="c2P-tg-5Cm" secondAttribute="centerY" id="r90-Il-sek"/>
+                <constraint firstItem="c2P-tg-5Cm" firstAttribute="top" secondItem="POt-ky-33e" secondAttribute="bottom" constant="20" id="xfj-N6-tYW"/>
+                <constraint firstItem="LMv-np-aJQ" firstAttribute="leading" secondItem="c2P-tg-5Cm" secondAttribute="trailing" constant="5" id="z3T-uT-SP8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Gnu-2r-lOF"/>
+            <connections>
+                <outlet property="lbName" destination="LMv-np-aJQ" id="Uep-om-etj"/>
+            </connections>
+            <point key="canvasLocation" x="80.5" y="-50"/>
+        </view>
+    </objects>
+</document>

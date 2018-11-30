@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NanumSquareOTFR.otf">
+            <string>NanumSquareOTFR</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Main1HistoryHeader" id="U6b-Vx-4bR" customClass="MainHistoryHeaderCollectionReusableView" customModule="QClub" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E2c-yS-vc4">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="0.5"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="2Y2-CD-sfA"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJX-Sb-4tG">
+                    <rect key="frame" x="15" y="18" width="34" height="15.5"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="14"/>
+                    <color key="textColor" red="0.90980392160000001" green="0.41568627450000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="iJX-Sb-4tG" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" constant="15" id="2UZ-d9-7G6"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="E2c-yS-vc4" secondAttribute="trailing" id="4P3-zE-uVT"/>
+                <constraint firstItem="iJX-Sb-4tG" firstAttribute="centerY" secondItem="VXr-Tz-HHm" secondAttribute="centerY" id="8cb-vi-CfJ"/>
+                <constraint firstItem="E2c-yS-vc4" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="s6A-96-G03"/>
+                <constraint firstItem="E2c-yS-vc4" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="z5N-We-4hh"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <connections>
+                <outlet property="lbTitle" destination="iJX-Sb-4tG" id="aUG-Qm-zmS"/>
+            </connections>
+            <point key="canvasLocation" x="-392" y="-20"/>
+        </collectionReusableView>
+    </objects>
+</document>

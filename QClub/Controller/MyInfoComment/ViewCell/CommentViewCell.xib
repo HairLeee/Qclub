@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="290" id="KGk-i7-Jjw" customClass="CommentViewCell" customModule="QClub" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="313" height="290"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="313" height="289.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kaw-XN-xZL">
+                        <rect key="frame" x="0.0" y="0.0" width="313" height="289"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017.12.12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NmF-A7-S55">
+                                <rect key="frame" x="20" y="20" width="70" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.3803921569" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ahB-WN-TCZ">
+                                <rect key="frame" x="20" y="48" width="273" height="1"/>
+                                <color key="backgroundColor" red="0.74117647060000003" green="0.74117647060000003" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="gGx-Nt-834"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FnX-9B-ZyB">
+                                <rect key="frame" x="20" y="59" width="273" height="107.5"/>
+                                <string key="text">Label Label  Label Label  Label Label  Label Label  Label Label  Label Label  Label Label  Label Label  Label Label  Label Label  Label Label  Label Label  Label Label  Label Label  Label Label  Label Label  Label Label  Label Label  </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.3803921569" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QWs-d3-pXB">
+                                <rect key="frame" x="0.0" y="176.5" width="313" height="10"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="oYv-93-p9Q"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ahB-WN-TCZ" firstAttribute="leading" secondItem="JkF-1E-yKv" secondAttribute="leading" constant="20" id="1Gq-7c-LYs"/>
+                            <constraint firstItem="ahB-WN-TCZ" firstAttribute="top" secondItem="NmF-A7-S55" secondAttribute="bottom" constant="10" id="4Tg-jl-NYT"/>
+                            <constraint firstItem="QWs-d3-pXB" firstAttribute="top" secondItem="FnX-9B-ZyB" secondAttribute="bottom" constant="10" id="4ad-ri-HZ8"/>
+                            <constraint firstItem="QWs-d3-pXB" firstAttribute="leading" secondItem="JkF-1E-yKv" secondAttribute="leading" id="E2l-YH-h6C"/>
+                            <constraint firstItem="JkF-1E-yKv" firstAttribute="trailing" secondItem="ahB-WN-TCZ" secondAttribute="trailing" constant="20" id="IxW-za-evs"/>
+                            <constraint firstItem="NmF-A7-S55" firstAttribute="top" secondItem="JkF-1E-yKv" secondAttribute="top" constant="20" id="KMx-Ro-OYw"/>
+                            <constraint firstItem="JkF-1E-yKv" firstAttribute="trailing" secondItem="QWs-d3-pXB" secondAttribute="trailing" id="Oo2-HX-Flo"/>
+                            <constraint firstAttribute="trailing" secondItem="FnX-9B-ZyB" secondAttribute="trailing" constant="20" id="e6h-tW-T21"/>
+                            <constraint firstItem="NmF-A7-S55" firstAttribute="leading" secondItem="JkF-1E-yKv" secondAttribute="leading" constant="20" id="eYs-X8-5vG"/>
+                            <constraint firstItem="FnX-9B-ZyB" firstAttribute="leading" secondItem="JkF-1E-yKv" secondAttribute="leading" constant="20" id="hkS-Br-yuU"/>
+                            <constraint firstItem="JkF-1E-yKv" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="QWs-d3-pXB" secondAttribute="bottom" id="qMz-po-L3X"/>
+                            <constraint firstItem="FnX-9B-ZyB" firstAttribute="top" secondItem="ahB-WN-TCZ" secondAttribute="bottom" constant="10" id="yAf-ET-1l7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JkF-1E-yKv"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kaw-XN-xZL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Wf5-L1-j1i"/>
+                    <constraint firstAttribute="trailing" secondItem="kaw-XN-xZL" secondAttribute="trailing" id="bLt-x9-Xng"/>
+                    <constraint firstItem="kaw-XN-xZL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ngX-Qx-Zue"/>
+                    <constraint firstAttribute="bottom" secondItem="kaw-XN-xZL" secondAttribute="bottom" id="zbG-bQ-rtR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lbComment" destination="FnX-9B-ZyB" id="Emw-K9-ady"/>
+                <outlet property="lbDate" destination="NmF-A7-S55" id="Eab-uQ-Ttm"/>
+            </connections>
+            <point key="canvasLocation" x="62.5" y="-65"/>
+        </tableViewCell>
+    </objects>
+</document>

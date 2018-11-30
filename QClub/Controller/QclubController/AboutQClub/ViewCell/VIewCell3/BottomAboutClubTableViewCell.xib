@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="1424" id="KGk-i7-Jjw" customClass="BottomAboutClubTableViewCell" customModule="QClub" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="448" height="1424"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="448" height="1423.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QJE-f5-kaW">
+                        <rect key="frame" x="0.0" y="0.0" width="448" height="1423.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EIV-lP-k2F">
+                                <rect key="frame" x="0.0" y="0.0" width="448" height="1"/>
+                                <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="EgC-nB-weO"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="등급별 승급조건 및 제출서류" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjG-o6-e8G">
+                                <rect key="frame" x="20" y="20" width="168" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.93333333330000001" green="0.60392156860000001" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BZZ-J3-GZ9">
+                                <rect key="frame" x="20" y="58" width="408" height="90"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qclub_submit_q1" translatesAutoresizingMaskIntoConstraints="NO" id="Jvz-0E-xIC">
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="90" id="hcW-JB-Ib5"/>
+                                            <constraint firstAttribute="height" constant="90" id="lat-aE-Adz"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qclub_dot_icon" translatesAutoresizingMaskIntoConstraints="NO" id="lo5-Kc-Of6">
+                                        <rect key="frame" x="98" y="10" width="5" height="5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="5" id="00G-PW-wwV"/>
+                                            <constraint firstAttribute="width" constant="5" id="fym-1Z-CM0"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="승급조건 : 재직회사(학교) 확인" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoY-aq-pMG">
+                                        <rect key="frame" x="116" y="4.5" width="159.5" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.3803921569" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qclub_dot_icon" translatesAutoresizingMaskIntoConstraints="NO" id="qJh-XV-jga">
+                                        <rect key="frame" x="98" y="30.5" width="5" height="5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="5" id="Ahy-Ys-MgH"/>
+                                            <constraint firstAttribute="height" constant="5" id="gab-tI-7fz"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="제출서류 : 재직(재학)증명서, 사원증, 학생증 등" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUi-vp-kmp">
+                                        <rect key="frame" x="116" y="26.5" width="292" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.3803921569" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="xUi-vp-kmp" firstAttribute="leading" secondItem="qJh-XV-jga" secondAttribute="trailing" constant="13" id="2by-Ow-sES"/>
+                                    <constraint firstItem="qJh-XV-jga" firstAttribute="leading" secondItem="lo5-Kc-Of6" secondAttribute="leading" id="34Z-tp-31w"/>
+                                    <constraint firstItem="lo5-Kc-Of6" firstAttribute="leading" secondItem="Jvz-0E-xIC" secondAttribute="trailing" constant="8" id="37t-9q-imK"/>
+                                    <constraint firstItem="Jvz-0E-xIC" firstAttribute="leading" secondItem="BZZ-J3-GZ9" secondAttribute="leading" id="8XU-sd-oku"/>
+                                    <constraint firstItem="eoY-aq-pMG" firstAttribute="leading" secondItem="lo5-Kc-Of6" secondAttribute="trailing" constant="13" id="ExF-iM-O3r"/>
+                                    <constraint firstItem="eoY-aq-pMG" firstAttribute="centerY" secondItem="lo5-Kc-Of6" secondAttribute="centerY" id="PaP-Qw-b8V"/>
+                                    <constraint firstAttribute="trailing" secondItem="xUi-vp-kmp" secondAttribute="trailing" id="kC5-xa-ldJ"/>
+                                    <constraint firstItem="lo5-Kc-Of6" firstAttribute="top" secondItem="Jvz-0E-xIC" secondAttribute="top" constant="10" id="l1T-fZ-4MF"/>
+                                    <constraint firstItem="Jvz-0E-xIC" firstAttribute="top" secondItem="BZZ-J3-GZ9" secondAttribute="top" id="oOH-y1-9O3"/>
+                                    <constraint firstItem="xUi-vp-kmp" firstAttribute="top" secondItem="qJh-XV-jga" secondAttribute="top" constant="-4" id="pnK-b6-kyE"/>
+                                    <constraint firstAttribute="bottom" secondItem="Jvz-0E-xIC" secondAttribute="bottom" id="que-fK-9TN"/>
+                                    <constraint firstItem="qJh-XV-jga" firstAttribute="top" secondItem="eoY-aq-pMG" secondAttribute="bottom" constant="10" id="wN1-6h-mkI"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KcF-wJ-3SO">
+                                <rect key="frame" x="20" y="158" width="408" height="90"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qclub_submit_q2" translatesAutoresizingMaskIntoConstraints="NO" id="zMV-Od-6zw">
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="90" id="Goa-Am-lxF"/>
+                                            <constraint firstAttribute="height" constant="90" id="THk-u5-TKo"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qclub_dot_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ai9-oy-zus">
+                                        <rect key="frame" x="98" y="10" width="5" height="5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="5" id="SCN-rD-Hex"/>
+                                            <constraint firstAttribute="height" constant="5" id="pAl-la-1qw"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="승급조건 : 재직회사(학교), 신분상태(아솔, 다솔) 확인" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7o3-QZ-hCn">
+                                        <rect key="frame" x="108" y="6" width="300" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.3803921569" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qclub_dot_icon" translatesAutoresizingMaskIntoConstraints="NO" id="8Vz-Xl-VIh">
+                                        <rect key="frame" x="98" y="32" width="5" height="5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="5" id="XmI-tL-4SP"/>
+                                            <constraint firstAttribute="height" constant="5" id="xBS-qM-Jyx"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="제출서류 : 재직(재학)증명서, 가족관계증명서 등" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55z-Y5-3m4">
+                                        <rect key="frame" x="108" y="28" width="300" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.3803921569" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="55z-Y5-3m4" firstAttribute="top" secondItem="8Vz-Xl-VIh" secondAttribute="top" constant="-4" id="2sA-DU-GN4"/>
+                                    <constraint firstAttribute="bottom" secondItem="zMV-Od-6zw" secondAttribute="bottom" id="5LL-UE-Qmg"/>
+                                    <constraint firstItem="zMV-Od-6zw" firstAttribute="leading" secondItem="KcF-wJ-3SO" secondAttribute="leading" id="7SZ-fM-Tvj"/>
+                                    <constraint firstItem="ai9-oy-zus" firstAttribute="top" secondItem="zMV-Od-6zw" secondAttribute="top" constant="10" id="BSV-KG-TDp"/>
+                                    <constraint firstItem="ai9-oy-zus" firstAttribute="leading" secondItem="zMV-Od-6zw" secondAttribute="trailing" constant="8" id="EsU-2X-mTK"/>
+                                    <constraint firstItem="7o3-QZ-hCn" firstAttribute="leading" secondItem="ai9-oy-zus" secondAttribute="trailing" constant="5" id="LU8-OF-aXX"/>
+                                    <constraint firstItem="8Vz-Xl-VIh" firstAttribute="leading" secondItem="ai9-oy-zus" secondAttribute="leading" id="QZH-d0-BIp"/>
+                                    <constraint firstAttribute="trailing" secondItem="55z-Y5-3m4" secondAttribute="trailing" id="Ynh-wa-KeE"/>
+                                    <constraint firstItem="55z-Y5-3m4" firstAttribute="leading" secondItem="8Vz-Xl-VIh" secondAttribute="trailing" constant="5" id="bAZ-WJ-mip"/>
+                                    <constraint firstItem="8Vz-Xl-VIh" firstAttribute="top" secondItem="7o3-QZ-hCn" secondAttribute="bottom" constant="10" id="c9D-qk-JrU"/>
+                                    <constraint firstItem="zMV-Od-6zw" firstAttribute="top" secondItem="KcF-wJ-3SO" secondAttribute="top" id="nKm-CA-1Pc"/>
+                                    <constraint firstItem="7o3-QZ-hCn" firstAttribute="top" secondItem="ai9-oy-zus" secondAttribute="top" constant="-4" id="pB5-K1-puL"/>
+                                    <constraint firstAttribute="trailing" secondItem="7o3-QZ-hCn" secondAttribute="trailing" id="vBa-1w-y67"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Jv-G8-yzO">
+                                <rect key="frame" x="20" y="258" width="408" height="90"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qclub_submit_q3" translatesAutoresizingMaskIntoConstraints="NO" id="8Jj-ci-ygj">
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="90" id="2oJ-Xy-qoV"/>
+                                            <constraint firstAttribute="width" constant="90" id="48w-FO-IFs"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qclub_dot_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ewE-gD-WHd">
+                                        <rect key="frame" x="98" y="10" width="5" height="5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="5" id="5Cm-Mn-Bxq"/>
+                                            <constraint firstAttribute="height" constant="5" id="ahO-rV-dYu"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="승급조건 : 재직회사(학교), 신분, 소득 확인" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pls-BA-QCi">
+                                        <rect key="frame" x="108" y="6" width="300" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.3803921569" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qclub_dot_icon" translatesAutoresizingMaskIntoConstraints="NO" id="xHk-UN-ayZ">
+                                        <rect key="frame" x="98" y="32" width="5" height="5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="5" id="DXi-gC-GDz"/>
+                                            <constraint firstAttribute="height" constant="5" id="yfz-nG-PC5"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="제출서류 : 재직(재학)증명서, 가족관계증명서, 소득증빙서류" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLQ-fC-i9c">
+                                        <rect key="frame" x="108" y="28" width="300" height="31.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.3803921569" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="8Jj-ci-ygj" secondAttribute="bottom" id="3rE-I8-Nzm"/>
+                                    <constraint firstAttribute="trailing" secondItem="pls-BA-QCi" secondAttribute="trailing" id="4L0-XS-S5f"/>
+                                    <constraint firstItem="8Jj-ci-ygj" firstAttribute="leading" secondItem="5Jv-G8-yzO" secondAttribute="leading" id="7zl-Vq-GK1"/>
+                                    <constraint firstItem="pls-BA-QCi" firstAttribute="leading" secondItem="ewE-gD-WHd" secondAttribute="trailing" constant="5" id="8Kv-ih-0Sf"/>
+                                    <constraint firstItem="zLQ-fC-i9c" firstAttribute="top" secondItem="xHk-UN-ayZ" secondAttribute="top" constant="-4" id="8jT-Nz-NSh"/>
+                                    <constraint firstItem="zLQ-fC-i9c" firstAttribute="leading" secondItem="xHk-UN-ayZ" secondAttribute="trailing" constant="5" id="Iee-jz-9Ps"/>
+                                    <constraint firstItem="xHk-UN-ayZ" firstAttribute="top" secondItem="pls-BA-QCi" secondAttribute="bottom" constant="10" id="Yhb-Ij-gps"/>
+                                    <constraint firstAttribute="trailing" secondItem="zLQ-fC-i9c" secondAttribute="trailing" id="ZLz-FY-tgd"/>
+                                    <constraint firstItem="pls-BA-QCi" firstAttribute="top" secondItem="ewE-gD-WHd" secondAttribute="top" constant="-4" id="ep9-zx-ftq"/>
+                                    <constraint firstItem="xHk-UN-ayZ" firstAttribute="leading" secondItem="ewE-gD-WHd" secondAttribute="leading" id="gGS-2z-xtZ"/>
+                                    <constraint firstItem="ewE-gD-WHd" firstAttribute="leading" secondItem="8Jj-ci-ygj" secondAttribute="trailing" constant="8" id="nmV-aa-e3l"/>
+                                    <constraint firstItem="8Jj-ci-ygj" firstAttribute="top" secondItem="5Jv-G8-yzO" secondAttribute="top" id="xeT-kV-8TP"/>
+                                    <constraint firstItem="ewE-gD-WHd" firstAttribute="top" secondItem="8Jj-ci-ygj" secondAttribute="top" constant="10" id="zVk-0Z-xi0"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="272-gF-iFc">
+                                <rect key="frame" x="20" y="358" width="408" height="90"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qclub_submit_qs" translatesAutoresizingMaskIntoConstraints="NO" id="QiX-KD-ivN">
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="90" id="A3d-eN-fzC"/>
+                                            <constraint firstAttribute="height" constant="90" id="Jew-8f-fdQ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qclub_dot_icon" translatesAutoresizingMaskIntoConstraints="NO" id="k2C-ei-Xrr">
+                                        <rect key="frame" x="98" y="10" width="5" height="5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="5" id="F8X-mx-BjE"/>
+                                            <constraint firstAttribute="width" constant="5" id="J9P-dA-hrf"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="승급조건 : 재직회사(학교), 신분, 연소득 1억 혹은 연소득 5천만원 이상 &amp; 부동산 소유" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PbY-jN-U92">
+                                        <rect key="frame" x="108" y="6" width="300" height="31.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.3803921569" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qclub_dot_icon" translatesAutoresizingMaskIntoConstraints="NO" id="eYQ-qN-RtL">
+                                        <rect key="frame" x="98" y="47.5" width="5" height="5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="5" id="Adf-Np-Zbs"/>
+                                            <constraint firstAttribute="width" constant="5" id="KeB-Dq-6Hg"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="제출서류 : 재직증명서(재학증명서), 가족관계증명서, 소득증명서류" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14M-6D-3c1">
+                                        <rect key="frame" x="108" y="43.5" width="300" height="31.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.3803921569" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="eYQ-qN-RtL" firstAttribute="leading" secondItem="k2C-ei-Xrr" secondAttribute="leading" id="Hko-ot-Fiu"/>
+                                    <constraint firstItem="k2C-ei-Xrr" firstAttribute="top" secondItem="QiX-KD-ivN" secondAttribute="top" constant="10" id="IIl-Iw-ZDN"/>
+                                    <constraint firstAttribute="trailing" secondItem="14M-6D-3c1" secondAttribute="trailing" id="Mbh-VH-M88"/>
+                                    <constraint firstItem="14M-6D-3c1" firstAttribute="leading" secondItem="eYQ-qN-RtL" secondAttribute="trailing" constant="5" id="Snp-sg-HXQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="QiX-KD-ivN" secondAttribute="bottom" id="T07-iO-3Ni"/>
+                                    <constraint firstItem="eYQ-qN-RtL" firstAttribute="top" secondItem="PbY-jN-U92" secondAttribute="bottom" constant="10" id="Wx0-vE-sw0"/>
+                                    <constraint firstItem="14M-6D-3c1" firstAttribute="top" secondItem="eYQ-qN-RtL" secondAttribute="top" constant="-4" id="bmS-0x-kGj"/>
+                                    <constraint firstItem="PbY-jN-U92" firstAttribute="top" secondItem="k2C-ei-Xrr" secondAttribute="top" constant="-4" id="dx2-XB-DZl"/>
+                                    <constraint firstItem="QiX-KD-ivN" firstAttribute="top" secondItem="272-gF-iFc" secondAttribute="top" id="ee0-VK-Kq9"/>
+                                    <constraint firstAttribute="trailing" secondItem="PbY-jN-U92" secondAttribute="trailing" id="eno-J7-WLt"/>
+                                    <constraint firstItem="k2C-ei-Xrr" firstAttribute="leading" secondItem="QiX-KD-ivN" secondAttribute="trailing" constant="8" id="rJZ-5K-wmh"/>
+                                    <constraint firstItem="QiX-KD-ivN" firstAttribute="leading" secondItem="272-gF-iFc" secondAttribute="leading" id="sBr-XC-BTt"/>
+                                    <constraint firstItem="PbY-jN-U92" firstAttribute="leading" secondItem="k2C-ei-Xrr" secondAttribute="trailing" constant="5" id="uxM-xj-GhN"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gpv-aQ-66L">
+                                <rect key="frame" x="0.0" y="468" width="448" height="1"/>
+                                <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="45v-Zb-LEh"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QH6-Zf-vzN" userLabel="View 1">
+                                <rect key="frame" x="20" y="499" width="408" height="59"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rh7-RJ-l0h">
+                                        <rect key="frame" x="0.0" y="0.0" width="5" height="59"/>
+                                        <color key="backgroundColor" red="1" green="0.66666666666666663" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="5" id="zOQ-Vq-cxU"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q1~QS등급 중 원하는 등급으로 승급신청이 가능합니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jo8-n1-g6K">
+                                        <rect key="frame" x="15" y="10" width="383" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.38039215686274508" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="각 등급별 승급에 필요한 서류를 제출해 주시면 됩니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BhX-Pd-xoO">
+                                        <rect key="frame" x="15" y="32" width="383" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.38039215686274508" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="jo8-n1-g6K" firstAttribute="top" secondItem="QH6-Zf-vzN" secondAttribute="top" constant="10" id="51G-eN-Lcc"/>
+                                    <constraint firstAttribute="trailing" secondItem="BhX-Pd-xoO" secondAttribute="trailing" constant="10" id="7Oo-rH-CIb"/>
+                                    <constraint firstItem="jo8-n1-g6K" firstAttribute="leading" secondItem="Rh7-RJ-l0h" secondAttribute="trailing" constant="10" id="8z9-nj-K0a"/>
+                                    <constraint firstAttribute="bottom" secondItem="BhX-Pd-xoO" secondAttribute="bottom" constant="10" id="AJf-ZX-GSZ"/>
+                                    <constraint firstItem="Rh7-RJ-l0h" firstAttribute="leading" secondItem="QH6-Zf-vzN" secondAttribute="leading" id="FM6-Qx-pnE"/>
+                                    <constraint firstItem="BhX-Pd-xoO" firstAttribute="top" secondItem="jo8-n1-g6K" secondAttribute="bottom" constant="5" id="bJm-uT-nvU"/>
+                                    <constraint firstItem="Rh7-RJ-l0h" firstAttribute="height" secondItem="QH6-Zf-vzN" secondAttribute="height" id="jf2-dd-AGs"/>
+                                    <constraint firstItem="BhX-Pd-xoO" firstAttribute="leading" secondItem="Rh7-RJ-l0h" secondAttribute="trailing" constant="10" id="mmB-H9-69e"/>
+                                    <constraint firstItem="Rh7-RJ-l0h" firstAttribute="top" secondItem="QH6-Zf-vzN" secondAttribute="top" id="tN7-rU-g5H"/>
+                                    <constraint firstAttribute="trailing" secondItem="jo8-n1-g6K" secondAttribute="trailing" constant="10" id="y4Y-p1-ttC"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1DD-2G-eqY" userLabel="View 1">
+                                <rect key="frame" x="20" y="568" width="408" height="53.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Drs-Ig-ciO">
+                                        <rect key="frame" x="0.0" y="0.0" width="5" height="53.5"/>
+                                        <color key="backgroundColor" red="0.90980392156862744" green="0.41568627450980389" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="5" id="ug0-Vm-13k"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vq3-r8-5RL">
+                                        <rect key="frame" x="15" y="10" width="383" height="33.5"/>
+                                        <string key="text">Q1~QS 등급으로 승급하기 위해서
+프로필에 승급에 필요한 정보를 오픈하지 않아도 됩니다.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.38039215686274508" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="vq3-r8-5RL" secondAttribute="trailing" constant="10" id="4bo-S7-rgu"/>
+                                    <constraint firstItem="vq3-r8-5RL" firstAttribute="top" secondItem="1DD-2G-eqY" secondAttribute="top" constant="10" id="K10-Gw-m3I"/>
+                                    <constraint firstItem="Drs-Ig-ciO" firstAttribute="leading" secondItem="1DD-2G-eqY" secondAttribute="leading" id="MMa-M7-Lp5"/>
+                                    <constraint firstAttribute="bottom" secondItem="vq3-r8-5RL" secondAttribute="bottom" constant="10" id="Thc-ox-9x2"/>
+                                    <constraint firstItem="Drs-Ig-ciO" firstAttribute="top" secondItem="1DD-2G-eqY" secondAttribute="top" id="V8f-w9-F6N"/>
+                                    <constraint firstItem="vq3-r8-5RL" firstAttribute="leading" secondItem="Drs-Ig-ciO" secondAttribute="trailing" constant="10" id="XH9-IC-BnU"/>
+                                    <constraint firstItem="Drs-Ig-ciO" firstAttribute="height" secondItem="1DD-2G-eqY" secondAttribute="height" id="jBr-s5-05A"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l96-FK-yVW" userLabel="View 1">
+                                <rect key="frame" x="20" y="631.5" width="408" height="53.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2lJ-lt-IdG">
+                                        <rect key="frame" x="0.0" y="0.0" width="5" height="53.5"/>
+                                        <color key="backgroundColor" red="1" green="0.66666666669999997" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="5" id="tUB-IF-ZFZ"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhl-vx-Qhn">
+                                        <rect key="frame" x="15" y="10" width="383" height="33.5"/>
+                                        <string key="text">Q클럽 승급 이후에는 승급 시 확인한 항목들은 회원이 임의로 
+수정/변경할 수 없습니다.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.38039215686274508" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="2lJ-lt-IdG" firstAttribute="leading" secondItem="l96-FK-yVW" secondAttribute="leading" id="JYw-1D-pgE"/>
+                                    <constraint firstItem="2lJ-lt-IdG" firstAttribute="top" secondItem="l96-FK-yVW" secondAttribute="top" id="MbJ-mI-iMd"/>
+                                    <constraint firstItem="2lJ-lt-IdG" firstAttribute="height" secondItem="l96-FK-yVW" secondAttribute="height" id="Psw-2P-pKT"/>
+                                    <constraint firstItem="Xhl-vx-Qhn" firstAttribute="top" secondItem="l96-FK-yVW" secondAttribute="top" constant="10" id="RME-BD-BNg"/>
+                                    <constraint firstAttribute="trailing" secondItem="Xhl-vx-Qhn" secondAttribute="trailing" constant="10" id="f3o-SE-9Js"/>
+                                    <constraint firstItem="Xhl-vx-Qhn" firstAttribute="leading" secondItem="2lJ-lt-IdG" secondAttribute="trailing" constant="10" id="hRb-aM-7Fw"/>
+                                    <constraint firstAttribute="bottom" secondItem="Xhl-vx-Qhn" secondAttribute="bottom" constant="10" id="sHS-78-FcD"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CcJ-AF-nEQ" userLabel="View 1">
+                                <rect key="frame" x="20" y="695" width="408" height="53.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PnD-He-3uu">
+                                        <rect key="frame" x="0.0" y="0.0" width="5" height="53.5"/>
+                                        <color key="backgroundColor" red="0.90980392156862744" green="0.41568627450980389" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="5" id="yC6-eZ-otn"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="승급외의 이직등의 변경사항이 발생시에는 회원이 변경사항을 변경신청해주셔야 합니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQa-rS-TVW">
+                                        <rect key="frame" x="15" y="10" width="383" height="33.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.38039215686274508" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="IQa-rS-TVW" secondAttribute="trailing" constant="10" id="3QY-pU-qWp"/>
+                                    <constraint firstItem="PnD-He-3uu" firstAttribute="top" secondItem="CcJ-AF-nEQ" secondAttribute="top" id="CEh-mt-hBu"/>
+                                    <constraint firstAttribute="bottom" secondItem="IQa-rS-TVW" secondAttribute="bottom" constant="10" id="Nsd-Ds-r73"/>
+                                    <constraint firstItem="IQa-rS-TVW" firstAttribute="leading" secondItem="PnD-He-3uu" secondAttribute="trailing" constant="10" id="UbJ-Ge-5bf"/>
+                                    <constraint firstItem="PnD-He-3uu" firstAttribute="leading" secondItem="CcJ-AF-nEQ" secondAttribute="leading" id="X2y-iz-No1"/>
+                                    <constraint firstItem="IQa-rS-TVW" firstAttribute="top" secondItem="CcJ-AF-nEQ" secondAttribute="top" constant="10" id="fkI-bj-nSa"/>
+                                    <constraint firstItem="PnD-He-3uu" firstAttribute="height" secondItem="CcJ-AF-nEQ" secondAttribute="height" id="lXn-lJ-CyT"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mld-2A-AaD" userLabel="View 1">
+                                <rect key="frame" x="20" y="758.5" width="408" height="53.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RXK-Q9-9vk">
+                                        <rect key="frame" x="0.0" y="0.0" width="5" height="53.5"/>
+                                        <color key="backgroundColor" red="1" green="0.66666666669999997" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="5" id="qtI-cS-Sm8"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q클럽 승급은 승급된 날로부터 1년간 유지되며, 승급 변경신청은 필요서류를 제출하여 관리자가 확인 후 승급결정 됩니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZH-O6-0R2">
+                                        <rect key="frame" x="15" y="10" width="383" height="33.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.38039215686274508" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="RXK-Q9-9vk" firstAttribute="leading" secondItem="Mld-2A-AaD" secondAttribute="leading" id="34Z-SE-xAu"/>
+                                    <constraint firstAttribute="trailing" secondItem="JZH-O6-0R2" secondAttribute="trailing" constant="10" id="NTV-ws-Vwl"/>
+                                    <constraint firstItem="RXK-Q9-9vk" firstAttribute="top" secondItem="Mld-2A-AaD" secondAttribute="top" id="VCn-kJ-HJV"/>
+                                    <constraint firstItem="JZH-O6-0R2" firstAttribute="top" secondItem="Mld-2A-AaD" secondAttribute="top" constant="10" id="qA7-EP-BgD"/>
+                                    <constraint firstAttribute="bottom" secondItem="JZH-O6-0R2" secondAttribute="bottom" constant="10" id="sRA-Gf-lFa"/>
+                                    <constraint firstItem="JZH-O6-0R2" firstAttribute="leading" secondItem="RXK-Q9-9vk" secondAttribute="trailing" constant="10" id="uUQ-hl-DtR"/>
+                                    <constraint firstItem="RXK-Q9-9vk" firstAttribute="height" secondItem="Mld-2A-AaD" secondAttribute="height" id="yxs-BC-aTf"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nA9-5R-rcV" userLabel="View 1">
+                                <rect key="frame" x="20" y="822" width="408" height="37"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x7I-eL-jql">
+                                        <rect key="frame" x="0.0" y="0.0" width="5" height="37"/>
+                                        <color key="backgroundColor" red="0.90980392156862744" green="0.41568627450980389" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="5" id="gcb-wv-lct"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="승급결정에는 필요서류 제출 후 1~2일 소요됩니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fx-GZ-waX">
+                                        <rect key="frame" x="15" y="10" width="383" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.38039215686274508" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="3fx-GZ-waX" firstAttribute="leading" secondItem="x7I-eL-jql" secondAttribute="trailing" constant="10" id="0cn-eS-Cgu"/>
+                                    <constraint firstAttribute="bottom" secondItem="3fx-GZ-waX" secondAttribute="bottom" constant="10" id="Dz4-lb-Gfg"/>
+                                    <constraint firstItem="x7I-eL-jql" firstAttribute="height" secondItem="nA9-5R-rcV" secondAttribute="height" id="Lkd-xQ-krw"/>
+                                    <constraint firstItem="3fx-GZ-waX" firstAttribute="top" secondItem="nA9-5R-rcV" secondAttribute="top" constant="10" id="PRH-Z0-6bp"/>
+                                    <constraint firstAttribute="trailing" secondItem="3fx-GZ-waX" secondAttribute="trailing" constant="10" id="WjS-mZ-Na3"/>
+                                    <constraint firstItem="x7I-eL-jql" firstAttribute="top" secondItem="nA9-5R-rcV" secondAttribute="top" id="XxV-Re-jtv"/>
+                                    <constraint firstItem="x7I-eL-jql" firstAttribute="leading" secondItem="nA9-5R-rcV" secondAttribute="leading" id="dQe-hG-5T7"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5aS-N3-67m">
+                                <rect key="frame" x="20" y="889" width="408" height="45"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKG-xH-p8d">
+                                        <rect key="frame" x="0.0" y="0.0" width="201.5" height="45"/>
+                                        <state key="normal" title="Q클럽 회원승급 신청">
+                                            <color key="titleColor" red="0.90980392156862744" green="0.41568627450980389" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="22.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.90980392156862744" green="0.41568627450980389" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnLeftAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="aPg-j5-xnN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctq-lB-zaW">
+                                        <rect key="frame" x="206.5" y="0.0" width="201.5" height="45"/>
+                                        <color key="backgroundColor" red="0.90980392156862744" green="0.41568627450980389" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Q클럽 회원정보 변경신청">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="22.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.90980392156862744" green="0.41568627450980389" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnRightAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="PVN-ds-6Fn"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="L3g-6p-Ohf"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fjG-o6-e8G" firstAttribute="top" secondItem="QJE-f5-kaW" secondAttribute="top" constant="20" id="0eL-Dx-HKN"/>
+                            <constraint firstItem="Mld-2A-AaD" firstAttribute="top" secondItem="CcJ-AF-nEQ" secondAttribute="bottom" constant="10" id="2UM-d3-zTN"/>
+                            <constraint firstAttribute="trailing" secondItem="1DD-2G-eqY" secondAttribute="trailing" constant="20" id="2gy-1o-KHJ"/>
+                            <constraint firstItem="272-gF-iFc" firstAttribute="leading" secondItem="QJE-f5-kaW" secondAttribute="leading" constant="20" id="3sb-gL-xg4"/>
+                            <constraint firstItem="nA9-5R-rcV" firstAttribute="top" secondItem="Mld-2A-AaD" secondAttribute="bottom" constant="10" id="6Q6-m5-WuV"/>
+                            <constraint firstItem="Mld-2A-AaD" firstAttribute="leading" secondItem="QJE-f5-kaW" secondAttribute="leading" constant="20" id="7WN-Wz-IKU"/>
+                            <constraint firstAttribute="trailing" secondItem="gpv-aQ-66L" secondAttribute="trailing" id="7un-Zb-yem"/>
+                            <constraint firstAttribute="trailing" secondItem="KcF-wJ-3SO" secondAttribute="trailing" constant="20" id="8al-cE-8vS"/>
+                            <constraint firstItem="1DD-2G-eqY" firstAttribute="leading" secondItem="QJE-f5-kaW" secondAttribute="leading" constant="20" id="9gj-09-B2R"/>
+                            <constraint firstItem="gpv-aQ-66L" firstAttribute="leading" secondItem="QJE-f5-kaW" secondAttribute="leading" id="FUD-0G-DWh"/>
+                            <constraint firstAttribute="trailing" secondItem="CcJ-AF-nEQ" secondAttribute="trailing" constant="20" id="Jax-3K-jTE"/>
+                            <constraint firstItem="l96-FK-yVW" firstAttribute="leading" secondItem="QJE-f5-kaW" secondAttribute="leading" constant="20" id="KBn-sG-bok"/>
+                            <constraint firstItem="QH6-Zf-vzN" firstAttribute="leading" secondItem="QJE-f5-kaW" secondAttribute="leading" constant="20" id="PKM-Sg-Bqe"/>
+                            <constraint firstItem="EIV-lP-k2F" firstAttribute="top" secondItem="QJE-f5-kaW" secondAttribute="top" id="PSY-LD-A2p"/>
+                            <constraint firstItem="5aS-N3-67m" firstAttribute="leading" secondItem="QJE-f5-kaW" secondAttribute="leading" constant="20" id="S2D-iP-ets"/>
+                            <constraint firstAttribute="trailing" secondItem="BZZ-J3-GZ9" secondAttribute="trailing" constant="20" id="Tsk-Kj-Lrf"/>
+                            <constraint firstItem="CcJ-AF-nEQ" firstAttribute="leading" secondItem="QJE-f5-kaW" secondAttribute="leading" constant="20" id="VdX-21-Fqz"/>
+                            <constraint firstAttribute="trailing" secondItem="l96-FK-yVW" secondAttribute="trailing" constant="20" id="VdZ-or-uQc"/>
+                            <constraint firstItem="CcJ-AF-nEQ" firstAttribute="top" secondItem="l96-FK-yVW" secondAttribute="bottom" constant="10" id="Wf4-w9-x5L"/>
+                            <constraint firstAttribute="trailing" secondItem="nA9-5R-rcV" secondAttribute="trailing" constant="20" id="Xpe-dw-kQK"/>
+                            <constraint firstItem="KcF-wJ-3SO" firstAttribute="top" secondItem="BZZ-J3-GZ9" secondAttribute="bottom" constant="10" id="ZzT-NN-Er2"/>
+                            <constraint firstItem="EIV-lP-k2F" firstAttribute="leading" secondItem="QJE-f5-kaW" secondAttribute="leading" id="bAZ-7u-BTT"/>
+                            <constraint firstItem="fjG-o6-e8G" firstAttribute="leading" secondItem="QJE-f5-kaW" secondAttribute="leading" constant="20" id="cLi-C9-aLW"/>
+                            <constraint firstItem="1DD-2G-eqY" firstAttribute="top" secondItem="QH6-Zf-vzN" secondAttribute="bottom" constant="10" id="crx-CD-5K9"/>
+                            <constraint firstItem="QH6-Zf-vzN" firstAttribute="top" secondItem="gpv-aQ-66L" secondAttribute="bottom" constant="30" id="dbT-WX-QfZ"/>
+                            <constraint firstItem="l96-FK-yVW" firstAttribute="top" secondItem="1DD-2G-eqY" secondAttribute="bottom" constant="10" id="dpb-1l-dXl"/>
+                            <constraint firstItem="nA9-5R-rcV" firstAttribute="leading" secondItem="QJE-f5-kaW" secondAttribute="leading" constant="20" id="eEQ-Aj-doH"/>
+                            <constraint firstItem="BZZ-J3-GZ9" firstAttribute="leading" secondItem="QJE-f5-kaW" secondAttribute="leading" constant="20" id="g7D-uA-IF4"/>
+                            <constraint firstAttribute="trailing" secondItem="5aS-N3-67m" secondAttribute="trailing" constant="20" id="knk-Nm-EMs"/>
+                            <constraint firstItem="5Jv-G8-yzO" firstAttribute="leading" secondItem="QJE-f5-kaW" secondAttribute="leading" constant="20" id="mrv-o0-frj"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="5aS-N3-67m" secondAttribute="bottom" constant="20" id="nXP-KD-jTU"/>
+                            <constraint firstItem="272-gF-iFc" firstAttribute="top" secondItem="5Jv-G8-yzO" secondAttribute="bottom" constant="10" id="oFQ-9R-FcY"/>
+                            <constraint firstItem="KcF-wJ-3SO" firstAttribute="leading" secondItem="QJE-f5-kaW" secondAttribute="leading" constant="20" id="pco-Zg-IOd"/>
+                            <constraint firstItem="BZZ-J3-GZ9" firstAttribute="top" secondItem="fjG-o6-e8G" secondAttribute="bottom" constant="20" id="prD-jm-6ba"/>
+                            <constraint firstItem="gpv-aQ-66L" firstAttribute="top" secondItem="272-gF-iFc" secondAttribute="bottom" constant="20" id="qEK-Ao-YcK"/>
+                            <constraint firstAttribute="trailing" secondItem="5Jv-G8-yzO" secondAttribute="trailing" constant="20" id="rHo-PW-5ZU"/>
+                            <constraint firstAttribute="trailing" secondItem="272-gF-iFc" secondAttribute="trailing" constant="20" id="rzE-gf-W6e"/>
+                            <constraint firstItem="5Jv-G8-yzO" firstAttribute="top" secondItem="KcF-wJ-3SO" secondAttribute="bottom" constant="10" id="xF0-8y-50p"/>
+                            <constraint firstAttribute="trailing" secondItem="QH6-Zf-vzN" secondAttribute="trailing" constant="20" id="ykG-Vd-ooc"/>
+                            <constraint firstItem="5aS-N3-67m" firstAttribute="top" secondItem="nA9-5R-rcV" secondAttribute="bottom" constant="30" id="yzr-dd-egr"/>
+                            <constraint firstItem="EIV-lP-k2F" firstAttribute="width" secondItem="QJE-f5-kaW" secondAttribute="width" id="zr3-a6-J6x"/>
+                            <constraint firstAttribute="trailing" secondItem="Mld-2A-AaD" secondAttribute="trailing" constant="20" id="zsR-mc-3Qd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QJE-f5-kaW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="LRy-fo-EFn"/>
+                    <constraint firstAttribute="trailing" secondItem="QJE-f5-kaW" secondAttribute="trailing" id="OQ7-2D-ARU"/>
+                    <constraint firstAttribute="bottom" secondItem="QJE-f5-kaW" secondAttribute="bottom" id="fn5-pJ-zMQ"/>
+                    <constraint firstItem="QJE-f5-kaW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gph-WZ-2uG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="-7" y="430"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="qclub_dot_icon" width="8" height="8"/>
+        <image name="qclub_submit_q1" width="90" height="90"/>
+        <image name="qclub_submit_q2" width="90" height="90"/>
+        <image name="qclub_submit_q3" width="90" height="90"/>
+        <image name="qclub_submit_qs" width="90" height="90"/>
+    </resources>
+</document>

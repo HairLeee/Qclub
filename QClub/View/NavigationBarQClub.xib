@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NanumSquareOTFR.otf">
+            <string>NanumSquareOTFR</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NavigationBarQClub" customModule="QClub" customModuleProvider="target">
+            <connections>
+                <outlet property="backBTN" destination="baf-tf-EJX" id="c2w-kr-2WM"/>
+                <outlet property="imageTop" destination="NSV-1K-OSx" id="7bo-H6-b9R"/>
+                <outlet property="lbTitle" destination="13t-RS-dM9" id="Fdj-2L-4E5"/>
+                <outlet property="rightBtn" destination="jfS-mC-gNz" id="inP-SN-Egl"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="m4d-X4-53Q">
+            <rect key="frame" x="0.0" y="0.0" width="399" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baf-tf-EJX">
+                    <rect key="frame" x="0.0" y="12" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="9vB-65-ynY"/>
+                        <constraint firstAttribute="height" constant="40" id="sBl-2k-nT0"/>
+                    </constraints>
+                    <state key="normal" image="ic_back_white"/>
+                    <connections>
+                        <action selector="backTUI:" destination="-1" eventType="touchUpInside" id="4JJ-og-UZ5"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cjI-Nf-vhc">
+                    <rect key="frame" x="186.5" y="4" width="26" height="56"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NSV-1K-OSx">
+                            <rect key="frame" x="0.0" y="17.5" width="21" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="NSV-1K-OSx" secondAttribute="height" multiplier="1:1" id="2HJ-TY-MsY"/>
+                                <constraint firstAttribute="width" constant="21" id="mxl-DW-O2e"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13t-RS-dM9">
+                            <rect key="frame" x="26" y="28.5" width="0.0" height="0.0"/>
+                            <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="HRs-Wu-Wed"/>
+                        <constraint firstAttribute="trailing" secondItem="13t-RS-dM9" secondAttribute="trailing" id="MP7-sg-5Pm"/>
+                        <constraint firstItem="13t-RS-dM9" firstAttribute="centerY" secondItem="cjI-Nf-vhc" secondAttribute="centerY" id="PRt-1H-NRQ"/>
+                        <constraint firstItem="13t-RS-dM9" firstAttribute="leading" secondItem="NSV-1K-OSx" secondAttribute="trailing" constant="5" id="T4b-a7-csX"/>
+                        <constraint firstItem="NSV-1K-OSx" firstAttribute="centerY" secondItem="cjI-Nf-vhc" secondAttribute="centerY" id="d33-xD-s2Q"/>
+                        <constraint firstItem="NSV-1K-OSx" firstAttribute="leading" secondItem="cjI-Nf-vhc" secondAttribute="leading" id="wi8-7M-sEA"/>
+                    </constraints>
+                </view>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfS-mC-gNz">
+                    <rect key="frame" x="339" y="7" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="S8n-UQ-q9v"/>
+                        <constraint firstAttribute="width" constant="50" id="bhB-h8-tgO"/>
+                    </constraints>
+                    <state key="normal" image="ic_navigation_delete"/>
+                    <connections>
+                        <action selector="rightBtnTUI:" destination="-1" eventType="touchUpInside" id="MgG-L3-6sS"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.90980392160000001" green="0.41568627450000001" blue="0.070588235289999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="jfS-mC-gNz" secondAttribute="trailing" constant="10" id="Cc6-G7-3he"/>
+                <constraint firstItem="baf-tf-EJX" firstAttribute="leading" secondItem="m4d-X4-53Q" secondAttribute="leading" id="HFS-79-uVu"/>
+                <constraint firstItem="cjI-Nf-vhc" firstAttribute="centerX" secondItem="m4d-X4-53Q" secondAttribute="centerX" id="O1z-aY-v3q"/>
+                <constraint firstItem="jfS-mC-gNz" firstAttribute="centerY" secondItem="m4d-X4-53Q" secondAttribute="centerY" id="Sir-kL-Vb9"/>
+                <constraint firstItem="cjI-Nf-vhc" firstAttribute="centerY" secondItem="baf-tf-EJX" secondAttribute="centerY" id="osM-eH-0qm"/>
+                <constraint firstItem="baf-tf-EJX" firstAttribute="centerY" secondItem="m4d-X4-53Q" secondAttribute="centerY" id="uRp-WU-6iH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-1216" y="-137"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_back_white" width="30" height="30"/>
+        <image name="ic_navigation_delete" width="50" height="50"/>
+    </resources>
+</document>

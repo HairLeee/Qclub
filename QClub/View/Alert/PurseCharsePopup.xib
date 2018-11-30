@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Led-KW-8EG" customClass="PurseCharsePopup" customModule="QClub" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="132"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aVt-dE-A9v">
+                    <rect key="frame" x="0.0" y="82" width="370" height="50"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SqR-wg-5Zy">
+                            <rect key="frame" x="0.0" y="0.0" width="370" height="0.5"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="yco-Wg-Jtx"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b01-uk-EWZ">
+                            <rect key="frame" x="185" y="0.0" width="0.5" height="50"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="0.5" id="lHX-Yq-t8F"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ldz-ba-Elk">
+                            <rect key="frame" x="0.0" y="0.0" width="185" height="50"/>
+                            <state key="normal" title="취소">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="CancelTUI:" destination="Led-KW-8EG" eventType="touchUpInside" id="Een-TK-iza"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HUE-so-Axh">
+                            <rect key="frame" x="185.5" y="0.0" width="184.5" height="50"/>
+                            <state key="normal" title="확인">
+                                <color key="titleColor" red="0.3803921569" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="OKTUI:" destination="Led-KW-8EG" eventType="touchUpInside" id="Pqf-zr-Vz2"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="HUE-so-Axh" secondAttribute="bottom" id="DhL-36-tgU"/>
+                        <constraint firstItem="Ldz-ba-Elk" firstAttribute="top" secondItem="aVt-dE-A9v" secondAttribute="top" id="FB9-dQ-ufq"/>
+                        <constraint firstItem="Ldz-ba-Elk" firstAttribute="leading" secondItem="aVt-dE-A9v" secondAttribute="leading" id="J9B-PA-rYl"/>
+                        <constraint firstItem="SqR-wg-5Zy" firstAttribute="top" secondItem="aVt-dE-A9v" secondAttribute="top" id="JBu-IW-2gG"/>
+                        <constraint firstItem="b01-uk-EWZ" firstAttribute="centerX" secondItem="aVt-dE-A9v" secondAttribute="centerX" id="RPT-rf-nCt"/>
+                        <constraint firstItem="HUE-so-Axh" firstAttribute="leading" secondItem="b01-uk-EWZ" secondAttribute="trailing" id="RWu-z8-mKe"/>
+                        <constraint firstAttribute="bottom" secondItem="b01-uk-EWZ" secondAttribute="bottom" id="Ubg-iK-FTq"/>
+                        <constraint firstAttribute="trailing" secondItem="HUE-so-Axh" secondAttribute="trailing" id="Y0y-p3-4p6"/>
+                        <constraint firstItem="SqR-wg-5Zy" firstAttribute="leading" secondItem="aVt-dE-A9v" secondAttribute="leading" id="bS2-iF-OK8"/>
+                        <constraint firstItem="b01-uk-EWZ" firstAttribute="leading" secondItem="Ldz-ba-Elk" secondAttribute="trailing" id="bek-Wt-qPB"/>
+                        <constraint firstAttribute="bottom" secondItem="Ldz-ba-Elk" secondAttribute="bottom" id="j17-w0-QEQ"/>
+                        <constraint firstAttribute="height" constant="50" id="l34-tu-YkI"/>
+                        <constraint firstItem="HUE-so-Axh" firstAttribute="top" secondItem="aVt-dE-A9v" secondAttribute="top" id="nFt-hd-KTr"/>
+                        <constraint firstItem="b01-uk-EWZ" firstAttribute="top" secondItem="aVt-dE-A9v" secondAttribute="top" id="nVx-BT-UQ6"/>
+                        <constraint firstAttribute="bottom" secondItem="b01-uk-EWZ" secondAttribute="bottom" id="qN8-4p-YRI"/>
+                        <constraint firstAttribute="trailing" secondItem="SqR-wg-5Zy" secondAttribute="trailing" id="qwa-cs-Uyk"/>
+                        <constraint firstItem="b01-uk-EWZ" firstAttribute="leading" secondItem="Ldz-ba-Elk" secondAttribute="trailing" id="uA7-cx-Rh3"/>
+                        <constraint firstItem="HUE-so-Axh" firstAttribute="leading" secondItem="b01-uk-EWZ" secondAttribute="trailing" id="yCJ-xa-mdL"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="하트가 부족합니다 충전하시겠습니까?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5I-L3-6b7">
+                    <rect key="frame" x="59" y="30" width="252.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="r5I-L3-6b7" firstAttribute="top" secondItem="HAS-gc-F5Y" secondAttribute="top" constant="30" id="Cbk-gN-fpf"/>
+                <constraint firstItem="HAS-gc-F5Y" firstAttribute="bottom" secondItem="aVt-dE-A9v" secondAttribute="bottom" id="EjS-Z0-KWt"/>
+                <constraint firstItem="HAS-gc-F5Y" firstAttribute="trailing" secondItem="aVt-dE-A9v" secondAttribute="trailing" id="TBR-77-XRv"/>
+                <constraint firstItem="aVt-dE-A9v" firstAttribute="leading" secondItem="Led-KW-8EG" secondAttribute="leading" id="UGb-IF-FBt"/>
+                <constraint firstItem="r5I-L3-6b7" firstAttribute="centerX" secondItem="Led-KW-8EG" secondAttribute="centerX" id="XnJ-BE-Z42"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="HAS-gc-F5Y"/>
+            <point key="canvasLocation" x="-84" y="21"/>
+        </view>
+    </objects>
+</document>

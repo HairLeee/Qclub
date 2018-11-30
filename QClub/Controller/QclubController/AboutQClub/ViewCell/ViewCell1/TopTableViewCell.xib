@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="937" id="KGk-i7-Jjw" customClass="TopTableViewCell" customModule="QClub" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="488" height="937"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="488" height="936.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WSY-Zi-dXe">
+                        <rect key="frame" x="0.0" y="0.0" width="488" height="936.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why Q클럽?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lcw-HR-4Vh">
+                                <rect key="frame" x="20" y="25" width="79.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.38039215686274508" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OLE-hw-ZQ5">
+                                <rect key="frame" x="20" y="63" width="448" height="201"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="“상대 회원이 작성한 정보를 그대로 믿어도 될끼?”" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Tg-G0-OOM">
+                                        <rect key="frame" x="10" y="10" width="428" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.38039215686274508" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="소셜데이팅 어플을 사용해본 분들의 공통된 불만과 한계점은 바로 신뢰도입니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qBG-C8-stK">
+                                        <rect key="frame" x="10" y="33" width="428" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.38039215686274508" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q클럽은 회원의 기본정보에 대한 서류확인을 통해서, 모바일 만남의 신뢰도를 높이고, 믿을 수 있고, 투명한 만남이 이루어지도록 도와드립니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isb-rb-fOT">
+                                        <rect key="frame" x="10" y="99" width="428" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.38039215686274508" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Q클럽&quot;은 본인이 직접 작성한 재직회사나 학교, 신분상태, 연소득 정보등 승급에 필요한 서류를 제출하여 확인후 회원승급이 이루어집니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4f-61-6A8">
+                                        <rect key="frame" x="10" y="155" width="428" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.38039215686274508" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="qBG-C8-stK" secondAttribute="trailing" constant="10" id="1kR-EF-8jW"/>
+                                    <constraint firstAttribute="trailing" secondItem="isb-rb-fOT" secondAttribute="trailing" constant="10" id="2VO-Vi-OhS"/>
+                                    <constraint firstItem="6Tg-G0-OOM" firstAttribute="leading" secondItem="OLE-hw-ZQ5" secondAttribute="leading" constant="10" id="7ax-6g-7VM"/>
+                                    <constraint firstItem="isb-rb-fOT" firstAttribute="top" secondItem="qBG-C8-stK" secondAttribute="bottom" constant="30" id="Ic0-iU-hz8"/>
+                                    <constraint firstItem="qBG-C8-stK" firstAttribute="top" secondItem="6Tg-G0-OOM" secondAttribute="bottom" constant="5" id="SB4-Zu-elZ"/>
+                                    <constraint firstItem="isb-rb-fOT" firstAttribute="leading" secondItem="OLE-hw-ZQ5" secondAttribute="leading" constant="10" id="XsQ-Xs-GTu"/>
+                                    <constraint firstAttribute="trailing" secondItem="a4f-61-6A8" secondAttribute="trailing" constant="10" id="aJo-MB-Ocd"/>
+                                    <constraint firstItem="qBG-C8-stK" firstAttribute="leading" secondItem="OLE-hw-ZQ5" secondAttribute="leading" constant="10" id="aNX-Il-4hb"/>
+                                    <constraint firstItem="a4f-61-6A8" firstAttribute="leading" secondItem="OLE-hw-ZQ5" secondAttribute="leading" constant="10" id="dNu-hr-IL6"/>
+                                    <constraint firstAttribute="bottom" secondItem="a4f-61-6A8" secondAttribute="bottom" constant="10" id="gng-ay-Ef1"/>
+                                    <constraint firstItem="a4f-61-6A8" firstAttribute="top" secondItem="isb-rb-fOT" secondAttribute="bottom" constant="20" id="sM5-EG-csg"/>
+                                    <constraint firstAttribute="trailing" secondItem="6Tg-G0-OOM" secondAttribute="trailing" constant="10" id="xCi-6e-2Gu"/>
+                                    <constraint firstItem="6Tg-G0-OOM" firstAttribute="top" secondItem="OLE-hw-ZQ5" secondAttribute="top" constant="10" id="zeO-CF-AlB"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="회원님이 원하시는 등급으로 신청은 자유입니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bar-sH-JoM">
+                                <rect key="frame" x="20" y="294" width="448" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.38039215686274508" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="각 등급으로 승급에 필요한 서류를 제출하시면 확인 후 승급됩니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abE-Bu-rfc">
+                                <rect key="frame" x="20" y="317" width="448" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.38039215686274508" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q1~QS등급이 되기 위해서프로필 작성시 승급에 필요한 사항을 오픈하지 않으셔도 됩니다.프로필에 필요사항 오픈여부는 자유입니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uku-SM-51F">
+                                <rect key="frame" x="20" y="355" width="448" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.38039215686274508" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="또한, 프로필에는 OOO학교, OOO회사로 기재하셔도 되며, 연봉등을 오픈하지 않으셔도 됩니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cO-l3-B27">
+                                <rect key="frame" x="20" y="411" width="448" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.38039215686274508" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="개인정보를 프로필에 오픈하지 않고도 서류를 제출하시면 승급은 이루어집니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNq-xO-emj">
+                                <rect key="frame" x="20" y="467" width="448" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.38039215686274508" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="투명한 세상, 투명한 만남!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFH-LO-Vii">
+                                <rect key="frame" x="20" y="523" width="448" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.90980392156862744" green="0.41568627450980389" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meet Clean! Meet Transparent!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDV-d4-VmD">
+                                <rect key="frame" x="20" y="546" width="448" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.90980392156862744" green="0.41568627450980389" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="FFH-LO-Vii" secondAttribute="trailing" constant="20" id="0Tr-jy-nXd"/>
+                            <constraint firstItem="KDV-d4-VmD" firstAttribute="leading" secondItem="WSY-Zi-dXe" secondAttribute="leading" constant="20" id="13x-zg-xzW"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="KDV-d4-VmD" secondAttribute="bottom" constant="20" id="61r-Vs-oEn"/>
+                            <constraint firstItem="uku-SM-51F" firstAttribute="top" secondItem="abE-Bu-rfc" secondAttribute="bottom" constant="20" id="7dW-Y8-APn"/>
+                            <constraint firstAttribute="trailing" secondItem="abE-Bu-rfc" secondAttribute="trailing" constant="20" id="Aao-uD-wJ8"/>
+                            <constraint firstAttribute="trailing" secondItem="Bar-sH-JoM" secondAttribute="trailing" constant="20" id="B0M-Jv-Etw"/>
+                            <constraint firstItem="abE-Bu-rfc" firstAttribute="top" secondItem="Bar-sH-JoM" secondAttribute="bottom" constant="5" id="BoD-qF-vHG"/>
+                            <constraint firstItem="abE-Bu-rfc" firstAttribute="leading" secondItem="WSY-Zi-dXe" secondAttribute="leading" constant="20" id="D6N-Jf-oo8"/>
+                            <constraint firstAttribute="trailing" secondItem="uku-SM-51F" secondAttribute="trailing" constant="20" id="KMQ-7A-If9"/>
+                            <constraint firstAttribute="trailing" secondItem="1cO-l3-B27" secondAttribute="trailing" constant="20" id="PmO-3f-2NX"/>
+                            <constraint firstAttribute="trailing" secondItem="OLE-hw-ZQ5" secondAttribute="trailing" constant="20" id="RgJ-vc-wv4"/>
+                            <constraint firstAttribute="trailing" secondItem="KDV-d4-VmD" secondAttribute="trailing" constant="20" id="aLc-mX-HWW"/>
+                            <constraint firstItem="OLE-hw-ZQ5" firstAttribute="top" secondItem="Lcw-HR-4Vh" secondAttribute="bottom" constant="20" id="b1j-by-chl"/>
+                            <constraint firstItem="FFH-LO-Vii" firstAttribute="leading" secondItem="WSY-Zi-dXe" secondAttribute="leading" constant="20" id="bxE-9x-ynn"/>
+                            <constraint firstItem="Lcw-HR-4Vh" firstAttribute="leading" secondItem="WSY-Zi-dXe" secondAttribute="leading" constant="20" id="cYQ-7I-7bm"/>
+                            <constraint firstItem="Lcw-HR-4Vh" firstAttribute="top" secondItem="WSY-Zi-dXe" secondAttribute="top" constant="25" id="dGP-eN-OH8"/>
+                            <constraint firstItem="1cO-l3-B27" firstAttribute="top" secondItem="uku-SM-51F" secondAttribute="bottom" constant="20" id="dVm-K7-wVi"/>
+                            <constraint firstItem="KDV-d4-VmD" firstAttribute="top" secondItem="FFH-LO-Vii" secondAttribute="bottom" constant="5" id="djd-lJ-pcj"/>
+                            <constraint firstItem="FFH-LO-Vii" firstAttribute="top" secondItem="TNq-xO-emj" secondAttribute="bottom" constant="20" id="fbk-UA-HCE"/>
+                            <constraint firstItem="Bar-sH-JoM" firstAttribute="leading" secondItem="WSY-Zi-dXe" secondAttribute="leading" constant="20" id="hkh-Jo-KZh"/>
+                            <constraint firstItem="1cO-l3-B27" firstAttribute="leading" secondItem="WSY-Zi-dXe" secondAttribute="leading" constant="20" id="lLh-hR-rQn"/>
+                            <constraint firstItem="TNq-xO-emj" firstAttribute="top" secondItem="1cO-l3-B27" secondAttribute="bottom" constant="20" id="qkF-Je-KiG"/>
+                            <constraint firstItem="Bar-sH-JoM" firstAttribute="top" secondItem="OLE-hw-ZQ5" secondAttribute="bottom" constant="30" id="r9o-bI-OSK"/>
+                            <constraint firstItem="uku-SM-51F" firstAttribute="leading" secondItem="WSY-Zi-dXe" secondAttribute="leading" constant="20" id="stg-Lo-6Zu"/>
+                            <constraint firstItem="OLE-hw-ZQ5" firstAttribute="leading" secondItem="WSY-Zi-dXe" secondAttribute="leading" constant="20" id="x7W-dL-mkV"/>
+                            <constraint firstAttribute="trailing" secondItem="TNq-xO-emj" secondAttribute="trailing" constant="20" id="y8R-BY-hHt"/>
+                            <constraint firstItem="TNq-xO-emj" firstAttribute="leading" secondItem="WSY-Zi-dXe" secondAttribute="leading" constant="20" id="z8Q-cR-a76"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="WSY-Zi-dXe" secondAttribute="trailing" id="1WB-HO-e3M"/>
+                    <constraint firstAttribute="bottom" secondItem="WSY-Zi-dXe" secondAttribute="bottom" id="lWW-ZT-v8o"/>
+                    <constraint firstItem="WSY-Zi-dXe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="r5l-3k-HFQ"/>
+                    <constraint firstItem="WSY-Zi-dXe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="zpS-IE-TMB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lb2" destination="qBG-C8-stK" id="kaf-oC-wOp"/>
+                <outlet property="lb3" destination="isb-rb-fOT" id="u8O-E4-4QI"/>
+                <outlet property="lb4" destination="a4f-61-6A8" id="mmk-9u-fHr"/>
+                <outlet property="lb6" destination="uku-SM-51F" id="G70-Or-3c0"/>
+                <outlet property="lb7" destination="1cO-l3-B27" id="EgF-Ga-1gw"/>
+                <outlet property="viewTopContent" destination="OLE-hw-ZQ5" id="XX8-ZN-9bb"/>
+            </connections>
+            <point key="canvasLocation" x="109" y="287.5"/>
+        </tableViewCell>
+    </objects>
+</document>

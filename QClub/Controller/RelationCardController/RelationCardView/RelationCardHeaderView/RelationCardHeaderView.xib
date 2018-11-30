@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RelationCardHeaderView" customModule="QClub" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="348" height="47"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="마음에 드는 분의 인연 카드를 선택해주세요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kpt-Gi-X9d">
+                    <rect key="frame" x="57" y="16" width="207.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="내일 11:59pm까지 선택이 가능합니다." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygc-So-9c3">
+                    <rect key="frame" x="57" y="30.5" width="186.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1i9-u1-uwe">
+                    <rect key="frame" x="15" y="10" width="27" height="27"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_calendar.png" translatesAutoresizingMaskIntoConstraints="NO" id="eyO-ag-Vd6">
+                            <rect key="frame" x="0.0" y="0.0" width="27" height="27"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czE-Iw-TWK">
+                            <rect key="frame" x="10.5" y="1" width="6" height="10"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlP-xQ-vhk">
+                            <rect key="frame" x="0.0" y="10" width="27" height="16.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="wlP-xQ-vhk" secondAttribute="trailing" id="0PM-g6-us3"/>
+                        <constraint firstAttribute="trailing" secondItem="eyO-ag-Vd6" secondAttribute="trailing" id="76w-pC-nmo"/>
+                        <constraint firstItem="wlP-xQ-vhk" firstAttribute="top" secondItem="1i9-u1-uwe" secondAttribute="top" constant="10" id="FBe-RH-dDv"/>
+                        <constraint firstItem="czE-Iw-TWK" firstAttribute="centerX" secondItem="1i9-u1-uwe" secondAttribute="centerX" id="GFk-JT-src"/>
+                        <constraint firstItem="wlP-xQ-vhk" firstAttribute="leading" secondItem="1i9-u1-uwe" secondAttribute="leading" id="Ilg-62-uKK"/>
+                        <constraint firstAttribute="bottom" secondItem="wlP-xQ-vhk" secondAttribute="bottom" id="LUC-ZJ-gfK"/>
+                        <constraint firstItem="eyO-ag-Vd6" firstAttribute="top" secondItem="1i9-u1-uwe" secondAttribute="top" id="ROD-gX-sqH"/>
+                        <constraint firstAttribute="width" secondItem="1i9-u1-uwe" secondAttribute="height" multiplier="1:1" id="YMv-pw-12d"/>
+                        <constraint firstAttribute="bottom" secondItem="eyO-ag-Vd6" secondAttribute="bottom" id="cQY-fE-vXg"/>
+                        <constraint firstItem="eyO-ag-Vd6" firstAttribute="leading" secondItem="1i9-u1-uwe" secondAttribute="leading" id="czz-Xy-1XS"/>
+                        <constraint firstItem="czE-Iw-TWK" firstAttribute="top" secondItem="1i9-u1-uwe" secondAttribute="top" constant="1" id="xB9-C1-yry"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="1i9-u1-uwe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="8vO-mW-WYM"/>
+                <constraint firstItem="1i9-u1-uwe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="EU2-Yy-cGS"/>
+                <constraint firstItem="Kpt-Gi-X9d" firstAttribute="leading" secondItem="1i9-u1-uwe" secondAttribute="trailing" constant="15" id="EW4-3Z-FMs"/>
+                <constraint firstAttribute="bottom" secondItem="1i9-u1-uwe" secondAttribute="bottom" constant="10" id="SBF-Ib-chp"/>
+                <constraint firstItem="ygc-So-9c3" firstAttribute="top" secondItem="Kpt-Gi-X9d" secondAttribute="bottom" id="b5a-C8-8fP"/>
+                <constraint firstItem="ygc-So-9c3" firstAttribute="leading" secondItem="1i9-u1-uwe" secondAttribute="trailing" constant="15" id="dtL-hn-YeE"/>
+                <constraint firstItem="Kpt-Gi-X9d" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="r19-yQ-QBC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dayLb" destination="wlP-xQ-vhk" id="eeq-oT-RBS"/>
+                <outlet property="monthLb" destination="czE-Iw-TWK" id="cDM-4q-bfn"/>
+                <outlet property="timeLb" destination="ygc-So-9c3" id="vwp-LN-W9a"/>
+            </connections>
+            <point key="canvasLocation" x="-23" y="-310.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_calendar.png" width="71" height="71"/>
+    </resources>
+</document>

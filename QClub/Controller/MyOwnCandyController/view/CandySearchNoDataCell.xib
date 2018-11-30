@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="193" id="KGk-i7-Jjw" customClass="CandySearchNoDataCell" customModule="QClub" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="330" height="193"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="330" height="192.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_heart_candy" translatesAutoresizingMaskIntoConstraints="NO" id="XIj-Nl-PtX">
+                        <rect key="frame" x="149.5" y="50" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="BFo-As-Ne2"/>
+                            <constraint firstAttribute="height" constant="32" id="tGA-n3-9kD"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_candy_man" translatesAutoresizingMaskIntoConstraints="NO" id="isB-9q-bib">
+                        <rect key="frame" x="62.5" y="28" width="77" height="77"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="77" id="1UJ-9o-SON"/>
+                            <constraint firstAttribute="width" constant="77" id="sbu-DW-9m0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="나의 따뜻한 말동무, 캔디 따뜻한 설레임~" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="seX-Dr-Aic">
+                        <rect key="frame" x="77.5" y="122" width="176" height="41"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.90980392160000001" green="0.41568627450000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_candy_woman" translatesAutoresizingMaskIntoConstraints="NO" id="4io-Q2-b8G">
+                        <rect key="frame" x="191.5" y="28" width="77" height="77"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="77" id="HYK-ed-U7p"/>
+                            <constraint firstAttribute="width" constant="77" id="kko-xG-abw"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="isB-9q-bib" firstAttribute="centerY" secondItem="XIj-Nl-PtX" secondAttribute="centerY" id="3fQ-yr-lXr"/>
+                    <constraint firstItem="XIj-Nl-PtX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="50" id="9xL-Gr-BNE"/>
+                    <constraint firstItem="seX-Dr-Aic" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="BZ2-jj-MDf"/>
+                    <constraint firstItem="seX-Dr-Aic" firstAttribute="top" secondItem="XIj-Nl-PtX" secondAttribute="bottom" constant="40" id="HMu-Ct-ieq"/>
+                    <constraint firstItem="4io-Q2-b8G" firstAttribute="leading" secondItem="XIj-Nl-PtX" secondAttribute="trailing" constant="10" id="IAe-hE-5AJ"/>
+                    <constraint firstItem="4io-Q2-b8G" firstAttribute="centerY" secondItem="XIj-Nl-PtX" secondAttribute="centerY" id="JBJ-rV-MIf"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="seX-Dr-Aic" secondAttribute="bottom" constant="30" id="KP5-SL-fSo"/>
+                    <constraint firstItem="seX-Dr-Aic" firstAttribute="leading" secondItem="isB-9q-bib" secondAttribute="leading" constant="15" id="PrU-3w-rSg"/>
+                    <constraint firstItem="XIj-Nl-PtX" firstAttribute="leading" secondItem="isB-9q-bib" secondAttribute="trailing" constant="10" id="W1k-Vh-dEu"/>
+                    <constraint firstItem="XIj-Nl-PtX" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="jeN-e3-2BY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="-128" y="-130.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_candy_man" width="77" height="77"/>
+        <image name="ic_candy_woman" width="77" height="77"/>
+        <image name="ic_heart_candy" width="32" height="32"/>
+    </resources>
+</document>

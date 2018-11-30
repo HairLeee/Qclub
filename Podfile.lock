@@ -1,0 +1,125 @@
+PODS:
+  - Alamofire (4.5.1)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
+  - AXPhotoViewer (1.3.2):
+    - AXPhotoViewer/Lite (= 1.3.2)
+  - AXPhotoViewer/Core (1.3.2):
+    - AXStateButton (>= 1.1.3)
+    - FLAnimatedImage (>= 1.0.0)
+  - AXPhotoViewer/Lite (1.3.2):
+    - AXPhotoViewer/Core
+  - AXStateButton (1.1.3)
+  - Charts (3.0.4):
+    - Charts/Core (= 3.0.4)
+  - Charts/Core (3.0.4)
+  - DLRadioButton (1.4.9)
+  - FLAnimatedImage (1.0.12)
+  - FSPagerView (0.5.5)
+  - GGLInstanceID (1.2.1)
+  - Google/CloudMessaging (2.0.4):
+    - GGLInstanceID (~> 1.0)
+    - Google/Core
+    - GoogleCloudMessaging (~> 1.0)
+  - Google/Core (2.0.4):
+    - GoogleInterchangeUtilities (~> 1.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.1)
+  - GoogleCloudMessaging (1.2.0):
+    - GoogleInterchangeUtilities (~> 1.0)
+    - GoogleIPhoneUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleIPhoneUtilities (1.2.1):
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.0)
+  - GoogleNetworkingUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleUtilities (1.3.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - HTMLKit (2.1.2)
+  - IQDropDownTextField (1.1.0)
+  - IQKeyboardManagerSwift (5.0.2)
+  - Kingfisher (4.1.0)
+  - MBProgressHUD (1.0.0)
+  - ObjectMapper (2.2.9)
+  - PagingMenuController (2.2.0)
+  - PhotoSlider (0.17.1):
+    - Kingfisher
+  - PromiseKit (4.4.0):
+    - PromiseKit/Foundation (= 4.4.0)
+    - PromiseKit/QuartzCore (= 4.4.0)
+    - PromiseKit/UIKit (= 4.4.0)
+  - PromiseKit/CorePromise (4.4.0)
+  - PromiseKit/Foundation (4.4.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.4.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.4.0):
+    - PromiseKit/CorePromise
+  - SendBirdSDK (3.0.66)
+  - Toast-Swift (2.0.0)
+  - TOCropViewController (2.1.0)
+  - TTTAttributedLabel (2.0.0)
+  - UITextView+Placeholder (1.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - AXPhotoViewer
+  - Charts
+  - DLRadioButton (~> 1.4)
+  - FSPagerView
+  - Google/CloudMessaging
+  - HTMLKit (~> 2.0)
+  - IQDropDownTextField
+  - IQKeyboardManagerSwift
+  - MBProgressHUD
+  - ObjectMapper (~> 2.2)
+  - PagingMenuController
+  - PhotoSlider
+  - PromiseKit
+  - SendBirdSDK
+  - Toast-Swift (~> 2.0.0)
+  - TOCropViewController
+  - TTTAttributedLabel
+  - UITextView+Placeholder (~> 1.2)
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  AXPhotoViewer: fb4aa2cbbf7603f693aefc9f6a81dab3dbe0ab32
+  AXStateButton: b42f7132f4d8232fc342d004e4738b84923a93e9
+  Charts: 0705898046257443f0afbbc3179f4b67507b6e48
+  DLRadioButton: 7bb8a6e3768b572469ace553391ab4d2af6f9c19
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FSPagerView: 3ec72e6b201d77a48adab5ed1d33b43a8cc153d6
+  GGLInstanceID: 4a317044f744281b82cd03015f379899f277cad3
+  Google: d536877ec602555b755cc28ce6fed104825c693c
+  GoogleCloudMessaging: f37ea14dd0f41d4d889c10b5559dd35bbfd9ac26
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleIPhoneUtilities: 63f25e93a3ddcb66884d182aab3a660d98f1479b
+  GoogleNetworkingUtilities: 3edd3a8161347494f2da60ea0deddc8a472d94cb
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleUtilities: 8bbc733218aad26306f9d4a253823986110e3358
+  HTMLKit: 5b84944079ad0bd93d19dff13d06afaa3066790f
+  IQDropDownTextField: 614f79ca905529c992045eaa112d0fc9ebb875d1
+  IQKeyboardManagerSwift: e580da046d804d2836ee84668cc17e43a850a35d
+  Kingfisher: f14df8cbe576bf55f211fa589e9869bceb4ea87d
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  ObjectMapper: 63cfe41bc6f8e7c8f44344c49901b8ae7de14c52
+  PagingMenuController: 6176618987bb170096664f2da097313e45ed9c31
+  PhotoSlider: ba494ab2fdd76ed6bbda9713c37bfb9fff3ebd67
+  PromiseKit: ecf5fe92275d57ee77c9ede858af47a162e9b97e
+  SendBirdSDK: 8e166b4199ecb4afcf577d43b4b60207a6acf6f7
+  Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
+  TOCropViewController: f88194a084f6afe1fd6f21a3f0edda7dd097e38b
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+
+PODFILE CHECKSUM: 3ec0be26b12a3dac71d27053c6df19f83000f09e
+
+COCOAPODS: 1.3.1

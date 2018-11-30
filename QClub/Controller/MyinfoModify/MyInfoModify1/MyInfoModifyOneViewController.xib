@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyInfoModifyOneViewController" customModule="QClub" customModuleProvider="target">
+            <connections>
+                <outlet property="navigationView" destination="fok-rm-BAO" id="Oux-Tx-Swj"/>
+                <outlet property="tbView" destination="crF-lx-NSE" id="kjn-7K-fUC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fok-rm-BAO" customClass="NavigationBarQClub" customModule="QClub" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="40" width="375" height="54"/>
+                    <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="AlW-e2-mxe"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="crF-lx-NSE">
+                    <rect key="frame" x="0.0" y="94" width="375" height="573"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="crF-lx-NSE" firstAttribute="top" secondItem="fok-rm-BAO" secondAttribute="bottom" id="0Nq-dT-16v"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="crF-lx-NSE" secondAttribute="bottom" id="L5x-4m-idx"/>
+                <constraint firstItem="fok-rm-BAO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="LDl-3s-CL8"/>
+                <constraint firstItem="crF-lx-NSE" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="QSX-uD-V1l"/>
+                <constraint firstItem="fok-rm-BAO" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="RZl-Ia-Qb2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="fok-rm-BAO" secondAttribute="trailing" id="YjN-Ac-aV9"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="crF-lx-NSE" secondAttribute="trailing" id="pS6-Rr-UFx"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="37" y="31"/>
+        </view>
+    </objects>
+</document>

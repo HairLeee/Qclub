@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="9eW-aU-JLc" customClass="UserLetterAccept" customModule="QClub" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sk8-eK-D6j">
+                    <rect key="frame" x="20" y="260" width="315" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="9vd-Nm-05n"/>
+                    </constraints>
+                    <state key="normal" title="닫기">
+                        <color key="titleColor" red="0.90980392160000001" green="0.41568627450000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.90980392160000001" green="0.41568627450000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="cancelTUI:" destination="9eW-aU-JLc" eventType="touchUpInside" id="GrM-Gp-vak"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IGE-qo-fMD">
+                    <rect key="frame" x="0.0" y="0.0" width="355" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LSH-Yk-Xzw">
+                            <rect key="frame" x="121.5" y="15" width="112" height="21"/>
+                            <string key="text">스페셜 인연 거절</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.41568627450000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="LSH-Yk-Xzw" firstAttribute="centerY" secondItem="IGE-qo-fMD" secondAttribute="centerY" id="ODc-GH-uG8"/>
+                        <constraint firstAttribute="height" constant="50" id="oZu-su-HFj"/>
+                        <constraint firstItem="LSH-Yk-Xzw" firstAttribute="centerX" secondItem="IGE-qo-fMD" secondAttribute="centerX" id="w90-UI-rFl"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="li4-ej-enI">
+                    <rect key="frame" x="74" y="70" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H2L-6W-bjC">
+                    <rect key="frame" x="20" y="70" width="49" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8f-Bu-ypV">
+                    <rect key="frame" x="20" y="101" width="315" height="82"/>
+                    <string key="text">절 좋게 봐주셔서 고맙습니다.저도 {상대방nickname}님께 호감이 갑니다.즐거운 대화 나누고 싶습니다. </string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICS-kv-szX">
+                    <rect key="frame" x="20" y="210" width="315" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="ef8-Bt-mjf"/>
+                    </constraints>
+                    <state key="normal">
+                        <string key="title">관심편지 보내기</string>
+                        <color key="titleColor" red="0.90980392160000001" green="0.41568627450000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.90980392160000001" green="0.41568627450000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="okTUI:" destination="9eW-aU-JLc" eventType="touchUpInside" id="Bdy-qM-ahC"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="F8f-Bu-ypV" secondAttribute="trailing" constant="20" id="Bxe-g3-iOb"/>
+                <constraint firstAttribute="trailing" secondItem="IGE-qo-fMD" secondAttribute="trailing" id="Koq-HZ-esm"/>
+                <constraint firstItem="F8f-Bu-ypV" firstAttribute="leading" secondItem="H2L-6W-bjC" secondAttribute="leading" id="OR3-L9-jXP"/>
+                <constraint firstItem="IGE-qo-fMD" firstAttribute="leading" secondItem="9eW-aU-JLc" secondAttribute="leading" id="TgZ-Fa-0HF"/>
+                <constraint firstAttribute="bottom" secondItem="sk8-eK-D6j" secondAttribute="bottom" constant="20" id="Xob-kb-nCr"/>
+                <constraint firstItem="li4-ej-enI" firstAttribute="leading" secondItem="H2L-6W-bjC" secondAttribute="trailing" constant="5" id="bAz-fv-ssp"/>
+                <constraint firstItem="H2L-6W-bjC" firstAttribute="leading" secondItem="9eW-aU-JLc" secondAttribute="leading" constant="20" id="c9w-ea-rXD"/>
+                <constraint firstItem="H2L-6W-bjC" firstAttribute="top" secondItem="IGE-qo-fMD" secondAttribute="bottom" constant="20" id="eQb-8F-UGt"/>
+                <constraint firstItem="F8f-Bu-ypV" firstAttribute="top" secondItem="H2L-6W-bjC" secondAttribute="bottom" constant="10" id="eYZ-6y-JVN"/>
+                <constraint firstItem="ICS-kv-szX" firstAttribute="leading" secondItem="9eW-aU-JLc" secondAttribute="leading" constant="20" id="gf5-jd-X8x"/>
+                <constraint firstItem="H2L-6W-bjC" firstAttribute="top" secondItem="IGE-qo-fMD" secondAttribute="bottom" constant="20" id="iba-gL-og0"/>
+                <constraint firstItem="IGE-qo-fMD" firstAttribute="top" secondItem="9eW-aU-JLc" secondAttribute="top" id="kM3-bn-eUN"/>
+                <constraint firstItem="sk8-eK-D6j" firstAttribute="leading" secondItem="9eW-aU-JLc" secondAttribute="leading" constant="20" id="l6e-So-SKj"/>
+                <constraint firstItem="li4-ej-enI" firstAttribute="centerY" secondItem="H2L-6W-bjC" secondAttribute="centerY" id="rUp-Di-Pjo"/>
+                <constraint firstAttribute="trailing" secondItem="ICS-kv-szX" secondAttribute="trailing" constant="20" id="sWo-ZH-wWz"/>
+                <constraint firstAttribute="trailing" secondItem="sk8-eK-D6j" secondAttribute="trailing" constant="20" id="vTu-Wx-ndR"/>
+                <constraint firstItem="sk8-eK-D6j" firstAttribute="top" secondItem="ICS-kv-szX" secondAttribute="bottom" constant="10" id="xoV-kL-6wO"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lbContent" destination="F8f-Bu-ypV" id="vK6-3j-5kG"/>
+                <outlet property="lbName" destination="li4-ej-enI" id="Tsr-I3-Y24"/>
+            </connections>
+            <point key="canvasLocation" x="-38" y="-369"/>
+        </view>
+    </objects>
+</document>

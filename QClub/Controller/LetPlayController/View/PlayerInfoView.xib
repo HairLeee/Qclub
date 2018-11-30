@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NanumSquareOTFR.otf">
+            <string>NanumSquareOTFR</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlayerInfoView" customModule="QClub" customModuleProvider="target">
+            <connections>
+                <outlet property="avatar" destination="sav-t3-APu" id="p8X-RY-IRt"/>
+                <outlet property="userNameLb" destination="PHL-dd-ja9" id="Bee-Qb-x6q"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="83" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sav-t3-APu">
+                    <rect key="frame" x="1.5" y="0.0" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="5AS-om-Ygx"/>
+                        <constraint firstAttribute="width" secondItem="sav-t3-APu" secondAttribute="height" multiplier="1:1" id="cS7-IE-C9t"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHL-dd-ja9">
+                    <rect key="frame" x="0.0" y="80" width="83" height="40"/>
+                    <fontDescription key="fontDescription" name="NanumSquareOTFR" family="NanumSquareOTF" pointSize="11"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="PHL-dd-ja9" secondAttribute="bottom" id="191-aY-KM5"/>
+                <constraint firstItem="sav-t3-APu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4eH-A9-FDw"/>
+                <constraint firstItem="PHL-dd-ja9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="EDW-KX-PFc"/>
+                <constraint firstItem="PHL-dd-ja9" firstAttribute="top" secondItem="sav-t3-APu" secondAttribute="bottom" id="SJv-Jc-bj1"/>
+                <constraint firstItem="sav-t3-APu" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="SLF-aM-IyN"/>
+                <constraint firstAttribute="trailing" secondItem="PHL-dd-ja9" secondAttribute="trailing" id="sCV-j5-RFL"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-120.5" y="-222"/>
+        </view>
+    </objects>
+</document>
